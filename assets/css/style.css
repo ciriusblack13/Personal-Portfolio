@@ -75,7 +75,8 @@
     color: var(--secondary);
   }
   
-  .navbar .btn {
+  .navbar .btn,
+  .works-btn .btn {
     background-color: var(--secondary);
     margin-block-start: 15px;
   }
@@ -207,7 +208,8 @@
   }
   
   .works-list {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 60px;
   }
   
@@ -249,6 +251,18 @@
   .works-card .btn-link ion-icon {
     color: var(--secondary);
     font-size: 1.6rem;
+  }
+
+  .works-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   
@@ -455,8 +469,63 @@
     height: 1px;
     background-color: var(--white);
   }
+
+  /* WORKS CARD */
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-block-start: 40px;
+  }
+
+  .card-body {
+    width: 90%;
+    background-color: rgba(0,0,0, 0.85);
+    border-radius: 20px;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+  }
   
+  .card span {
+    font-weight: bold;
+    color: var(--secondary);
+  }
   
+  .card-body {
+    font-weight: 400;
+    color: white;
+    font-size: .7em;
+    margin: .5em;
+  }
+  
+  .card .share {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .card-body .info,
+  a ion-icon {
+    margin-block-start: 10px;
+  }
+
+  a:hover ion-icon {
+    color: var(--secondary);
+  }
+
   /* -------------- MEDIA QUERIES -------------- */
   
   @media (min-width: 600px) {
@@ -480,6 +549,26 @@
     .skills-list {
       grid-template-columns: 1fr 1fr;
       column-gap: 50px;
+    }
+
+    .section.works {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      width: 30em;
+      height: 25em;
+    }
+
+    .card-body {
+      font-size: 1em;
+    }
+
+    a ion-icon {
+      font-size: 1.3em;
     }
   
   }

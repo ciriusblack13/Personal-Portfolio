@@ -1,19 +1,12 @@
 :root {
 
-    /* -------------- COLORI --------------*/
-    /* --primary: #ABABBA; */
+    /* -------------- COLORS --------------*/
     --primary: #ffffff;
-    /* --secondary: #FB523C; */
-    /* --secondary: #3076bc; */
     --secondary: #ef920f;
     --box-bg-color: #343D55;
-    /* --main-bg-color: #242338; */
     --main-bg-color: #1a3f43;
     --btn-color: #142EB3;
-    --js-bg: #FFD814;
-    --css-bg: #2764F1;
     --manatee: #A2A0AC;
-    --react-bg: #08B6BF;
     --black: #000000;
     --white: #ffffff;
   
@@ -41,7 +34,7 @@
   
     --shadow: 0 -5px 10px var(--manatee);
   
-    /* -------------- TRANSIZIONI ------------*/
+    /* -------------- TRANSITIONS ------------*/
   
     --transition-1: 0.05s ease;
     --transition-2: 0.25s ease;
