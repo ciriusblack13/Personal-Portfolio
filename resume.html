@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Descrizione del tuo sito web." />
+
+    <title>Resume</title>
+    <link
+      rel="icon"
+      alt="Jose's logo"
+      type="image/x-icon"
+      href="./assets/img/favicon.png"
+    />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="resume-body">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="../../index.html">
+          <h1 class="logo">JOSÉ <span>ANTONIO</span></h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle Menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+
+        <nav class="navbar container">
+          <ul class="navbar-list">
+            <li>
+              <a href="./index.html" class="navbar-link" data-nav-link
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="./index.html#about" class="navbar-link" data-nav-link
+                >About</a
+              >
+            </li>
+
+            <li>
+              <a href="./index.html#works" class="navbar-link" data-nav-link
+                >Works</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="./index.html#skills"
+                class="navbar-link"
+                data-nav-link
+                >Skills</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="./contact.html"
+                class="navbar-link"
+                data-nav-link
+                >Contact</a
+              >
+            </li>
+
+            <li>
+              <a href="./assets/docs/resume.pdf" class="btn btn-primary"
+                >Download CV</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MY RESUME -->
+
+    <section class="section resume">
+      <div class="container">
+        <div class="cv-profile">
+          <img src="./assets/img/profilo2.png" alt="" />
+        </div>
+        <div class="intro">
+          <div class="contacts">
+            <h4>contacts</h4>
+            <p class="section-subtitle">Phone</p>
+            <p>3517656977</p>
+            <p class="section-subtitle">Mail</p>
+            <p>cireneu.jose@gmail.com</p>
+            <p class="section-subtitle">City</p>
+            <p>Rome</p>
+          </div>
+          <div class="languages">
+            <h4>languages</h4>
+            <p class="section-subtitle">Mother Tongue</p>
+            <p>Portuguese</p>
+            <p class="section-subtitle">Second language</p>
+            <p>Italian, English, Spanish</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box my-profile">
+          <div class="box-title">
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <h4>My Profile</h4>
+          </div>
+          <p>
+            I am a web developer based in Rome, Italy. I fueled by a passion for
+            finance. Embracing challenges and staying at the forefront of
+            emerging technologies are my hallmarks.
+          </p>
+        </div>
+        <div class="box education">
+          <div class="box-title">
+            <ion-icon name="book-outline"></ion-icon>
+            <h4>Education</h4>
+          </div>
+          <ul class="education-list">
+            <li>
+              <h5>Giovanni Paolo II</h5>
+              <p>Diploma <span>2016</span></p>
+            </li>
+            <li>
+              <h5>Modena University</h5>
+              <p>Financial intelligence <span>2017</span></p>
+            </li>
+            <li>
+              <h5>Start2Impact</h5>
+              <p>Front-end Development <span>TODAY</span></p>
+            </li>
+          </ul>
+        </div>
+        <div id="box-skills" class="box skills">
+          <div class="box-title">
+            <ion-icon name="cog-outline"></ion-icon>
+            <h4>Skills</h4>
+          </div>
+          <ul class="skills-list cv">
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Leadership</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Web Design</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Comunication</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 85%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Team Working</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">Problem solving</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- BACK TO HOME -->
+
+    <a href="./index.html#top" class="back-to-top" data-back-to-top
+      >BACK HOME</a
+    >
+
+    <!-- CUSTOM JS-->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- IONICON LINK -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
