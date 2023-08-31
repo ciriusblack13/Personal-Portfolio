@@ -384,7 +384,7 @@
   
   .footer {
     background-color: var(--box-bg-color);
-    padding-block: 60px;
+    padding-block: 20px;
   }
   
   .copyright {
@@ -750,6 +750,11 @@
 
     .contacts {
       border: none;
+    }
+
+    .footer {
+      position: relative;
+      bottom: 0;
     }
   
   }
